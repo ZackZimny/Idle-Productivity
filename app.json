@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "IdleProd",
-    "slug": "IdleProd",
+    "slug": "idle-productivity",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66770dbe-a924-40a7-9685-741f39663992"
+      }
+    },
+    "owner": "zimz"
+  },
+  "scripts": {
+    "tsc": "tsc"
   }
 }
